@@ -1,0 +1,20 @@
+{
+	"name": "crud_express",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "supervisor index.js"
+	},
+	"author": "lorgik",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.19.2",
+		"sqlite3": "^5.1.7"
+	},
+	"devDependencies": {
+		"supervisor": "^0.12.0"
+	}
+}
